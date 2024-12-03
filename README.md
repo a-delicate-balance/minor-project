@@ -1,24 +1,10 @@
-# Brain-MRI-segmentation
-This is a project exploring Machine learning methods of segmentation of MRI images for extracting MRI images of brain from other tissue present in and around the human skull.
+# minor-project
+This is a project exploring Machine learning methods of segmentation of MRI images for extracting MRI images of brain from other tissue present in and around the human skull, undertaken as 5th semester minor project under Dr. Poonam Saini in Punjab Engineering College, Sector 12, Chandigarh.
 
-## Installation
+## Project file on Colab
+Link to [Colab Notebook](https://colab.research.google.com/drive/1AEWN5nysJi8UKYgkPCE2agX-rJrIkhYW)
 
-### Clone the source code
-```sh
-git clone https://github.com/a-delicate-balance/Brain-MRI-segmentation
-cd Brain-MRI-segmentation
-```
-### Python requirements
-```sh
-pip install -r requirements.txt
-```
-
-Open the python notebook in your preferred jupyter notebook software.
-
-## Roadmap
-1. Apply U-Net to OASIS MRI dataset.
-2. Apply Trans-U-Net to the dataset.
-3. Compare the output of both.
+Run `!pip install numpy pandas pillow tqdm torch torchvision scikit-learn albumentations matplotlibopencv-python` for first time configuration/running on local machines.
 
 ## Contributing
 This is a project with contributions from my team, thus, this project will not accept merge requests.
